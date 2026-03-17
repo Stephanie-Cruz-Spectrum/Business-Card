@@ -6,27 +6,25 @@
     <style>
         body { font-family: 'Helvetica', sans-serif; text-align: center; padding: 20px; background-color: #f0f2f5; margin: 0; }
         .card { background: white; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); max-width: 350px; margin: 40px auto; overflow: hidden; }
+        .logo-header { background: #003057; padding: 35px 20px; display: flex; justify-content: center; }
         
-        /* Official Navy Blue Header */
-        .logo-header { background: #003057; padding: 35px 20px; display: flex; justify-content: center; align-items: center; }
-        
-        /* This is the Spectrum Logo encoded directly into the code so it never breaks */
-        .logo-header img { width: 220px; height: auto; filter: brightness(0) invert(1); }
+        /* This is the SVG Spectrum Logo - It cannot break because it's not an image file */
+        .spectrum-logo { width: 220px; fill: white; }
 
         .content { padding: 30px 20px; }
         h1 { color: #003057; margin: 15px 0 5px 0; font-size: 1.8em; }
-        h2 { color: #F05A28; font-size: 0.93em; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; line-height: 1.4; }
-        
-        p { color: #444; line-height: 1.6; font-size: 1em; margin-bottom: 25px; padding: 0 10px; text-align: center; }
-        
-        .btn { display: block; background: #003057; color: white !important; padding: 15px; text-decoration: none; border-radius: 10px; margin: 10px 0; font-weight: bold; font-size: 1.1em; }
+        h2 { color: #F05A28; font-size: 0.9em; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; line-height: 1.4; }
+        p { color: #444; line-height: 1.6; font-size: 1em; margin-bottom: 25px; padding: 0 10px; }
+        .btn { display: block; background: #003057; color: white !important; padding: 15px; text-decoration: none; border-radius: 10px; margin: 10px 0; font-weight: bold; }
         .btn-save { background: #F05A28; }
     </style>
 </head>
 <body>
     <div class="card">
         <div class="logo-header">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Spectrum_logo_2020.svg" alt="Spectrum Business">
+            <svg class="spectrum-logo" viewBox="0 0 200 45" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.2 14.8c-4.4 0-7.8 1.9-9.5 5.2-.4.8-.6 1.7-.6 2.6 0 3.2 2.6 5.8 5.8 5.8 1.9 0 3.6-.9 4.7-2.3l6.5 3.8c-2.4 3.9-6.6 6.5-11.5 6.5C5.6 36.4 0 30.8 0 23.9c0-1.7.3-3.3.9-4.8C3.5 12.3 10.1 7.4 17.8 7.4c5.1 0 9.6 2.2 12.6 5.7l-5.8 5.1c-1.8-2.1-4.5-3.4-7.4-3.4zm23.2-7.1h7.7l11.4 28.3h-8.2l-2.2-6h-12l-2.2 6h-8.1l11.4-28.3zm6 15.6l-3.6-10.2-3.6 10.2h7.2zm20.8-15.6h14.5c4.7 0 8.3 1.3 10.7 3.8 2 2.1 3 4.8 3 8 0 3.2-1.1 5.9-3.2 8-2.4 2.4-5.9 3.6-10.5 3.6h-6.7v4.9h-7.8V7.7zm14.1 16.1c3.8 0 5.8-1.9 5.8-5.2 0-3.3-2-5.1-5.8-5.1h-6.3v10.3h6.3zm31.7-16.1h24.7v7.2h-8.4v21.1h-7.8V14.9h-8.5V7.7zm28.6 0h14.5c4.7 0 8.3 1.3 10.7 3.8 2 2.1 3 4.8 3 8 0 3.2-1.1 5.9-3.2 8-2.4 2.4-5.9 3.6-10.5 3.6h-6.7v4.9h-7.8V7.7zm14.1 16.1c3.8 0 5.8-1.9 5.8-5.2 0-3.3-2-5.1-5.8-5.1h-6.3v10.3h6.3zm31.1-16.1h7.8v10.8h.1c1.3-1.6 3.6-2.9 6.2-2.9 5.1 0 8.5 3.6 8.5 8.9v11.5h-7.8v-10.5c0-2.8-1.4-4.2-3.6-4.2-2.1 0-3.4 1.4-3.4 4.1v10.6h-7.8V7.7z"/>
+            </svg>
         </div>
         <div class="content">
             <h1>Stephanie Cruz</h1>
