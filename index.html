@@ -7,16 +7,23 @@
         body { font-family: 'Helvetica', Arial, sans-serif; text-align: center; padding: 20px; background-color: #f0f2f5; margin: 0; }
         .card { background: white; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); max-width: 350px; margin: 40px auto; overflow: hidden; }
         
-        /* The "Bulletproof" Logo Section */
-        .logo-header { background: #003057; padding: 30px 10px; color: white; }
-        .spectrum-brand { font-size: 32px; font-weight: 900; font-style: italic; letter-spacing: -1.5px; margin: 0; display: inline-block; }
-        .business-tag { color: #F05A28; font-size: 14px; font-weight: bold; display: block; letter-spacing: 3px; margin-top: -5px; }
+        /* Matched to the Navy Blue in your uploaded image */
+        .logo-header { background: #1b3259; padding: 35px 10px; color: white; position: relative; }
+        
+        /* The Spectrum "S" and Wordmark using code */
+        .spectrum-brand { font-size: 38px; font-weight: 900; letter-spacing: -1.5px; margin: 0; display: inline-block; position: relative; }
+        
+        /* The little blue triangle/arrow at the end of the logo */
+        .spectrum-brand::after { content: ''; display: inline-block; width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 12px solid #5a87c5; margin-left: 2px; vertical-align: middle; }
+
+        .business-tag { color: #F05A28; font-size: 14px; font-weight: bold; display: block; letter-spacing: 4px; margin-top: 5px; }
 
         .content { padding: 30px 20px; }
-        h1 { color: #003057; margin: 15px 0 5px 0; font-size: 1.8em; }
+        h1 { color: #1b3259; margin: 15px 0 5px 0; font-size: 1.8em; }
         h2 { color: #F05A28; font-size: 0.9em; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-top: 0; line-height: 1.4; }
         p { color: #444; line-height: 1.6; font-size: 1em; margin-bottom: 25px; padding: 0 10px; }
-        .btn { display: block; background: #003057; color: white !important; padding: 15px; text-decoration: none; border-radius: 10px; margin: 10px 0; font-weight: bold; }
+        
+        .btn { display: block; background: #1b3259; color: white !important; padding: 15px; text-decoration: none; border-radius: 10px; margin: 10px 0; font-weight: bold; }
         .btn-save { background: #F05A28; }
     </style>
 </head>
