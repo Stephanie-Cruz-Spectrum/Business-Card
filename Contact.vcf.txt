@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Cruz;Stephanie;;;
+FN:Stephanie Cruz
+ORG:Spectrum Business
+TITLE:Business Account Executive / Project Manager
+EMAIL;TYPE=INTERNET;TYPE=WORK;TYPE=pref:Stephanie.cruz@charter.com
+TEL;TYPE=CELL:(661) 233-6931
+URL:https://Stephanie-Cruz-Spectrum.github.io/Business-Card/
+END:VCARD
